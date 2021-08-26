@@ -6,7 +6,12 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var date = DateTime.Now;
+
+            Console.WriteLine("Как тебя зовут?");
+            var name = Console.ReadLine();
+
+            Console.WriteLine($"Здравствуй {name}! \nСейчас {date}");
         }
     }
 }
